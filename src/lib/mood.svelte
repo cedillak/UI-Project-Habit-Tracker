@@ -13,12 +13,12 @@
     // Function to get the mood image based on the selected mood
     function getMoodImage(mood) {
         switch (mood) {
-            case "happy": return "src/assets/happy.png";
-            case "sad": return "src/assets/sad.png";
-            case "average": return "src/assets/average.png";
-            case "angry": return "src/assets/angry.png";
-            case "tired": return "src/assets/tired.png";
-            case "worried": return "src/assets/worried.png";
+            case "happy": return "public/happy.png";
+            case "sad": return "public/sad.png";
+            case "average": return "public/average.png";
+            case "angry": return "public/angry.png";
+            case "tired": return "public/tired.png";
+            case "worried": return "public/worried.png";
             default: return ""; // No image for an unselected mood
         }
     }
